@@ -1,6 +1,11 @@
 import string
 from collections import Counter 
 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('vader_lexicon')
+
 # nltk libraries
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
